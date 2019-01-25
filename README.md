@@ -15,3 +15,7 @@ s = input("Enter multiple numbers:")
 numbers = list(map(int, s.split()))
 
 print (set([x for x in numbers if numbers.count(x) > 1]))
+
+# if you would like to get "just 2 times duplicated digits/numbers", then use below line, besides last line of the code. 
+
+# print (set([x for x in numbers if numbers.count(x) == 2]))
