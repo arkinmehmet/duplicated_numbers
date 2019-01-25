@@ -1,4 +1,4 @@
-<<< ### how to find duplicated_numbers >>>
+### how to find duplicated_numbers
 
 print (
 """###########
